@@ -18,6 +18,7 @@ MistCommute is a decentralized application that enables privacy-preserving commu
 - Node.js 18+
 - Hardhat
 - FHEVM dependencies
+- MetaMask or compatible Web3 wallet
 
 ### Installation
 
