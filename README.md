@@ -41,8 +41,11 @@ npx hardhat node
 # Deploy contracts
 npx hardhat deploy --network localhost
 
-# Run frontend
+# Run frontend (with mock relayer)
 cd mistcommute-frontend
+npm run dev:mock
+
+# Run frontend (with real relayer)
 npm run dev
 ```
 
