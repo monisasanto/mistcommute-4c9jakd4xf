@@ -9,7 +9,13 @@ MistCommute is a decentralized application that enables privacy-preserving commu
 ## Project Structure
 
 - `fhevm-hardhat-template/` - Hardhat project with FHEVM contracts
+  - `contracts/` - Smart contract source files
+  - `deploy/` - Deployment scripts
+  - `test/` - Contract tests
 - `mistcommute-frontend/` - Next.js frontend application
+  - `app/` - Next.js app directory
+  - `components/` - React components
+  - `hooks/` - Custom React hooks
 
 ## Getting Started
 
@@ -35,8 +41,11 @@ npx hardhat node
 # Deploy contracts
 npx hardhat deploy --network localhost
 
-# Run frontend
+# Run frontend (with mock relayer)
 cd mistcommute-frontend
+npm run dev:mock
+
+# Run frontend (with real relayer)
 npm run dev
 ```
 
